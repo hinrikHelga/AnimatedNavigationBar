@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F74C7F8F2A136EA300E90700 /* SecondScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F8E2A136EA300E90700 /* SecondScreenVC.swift */; };
+		F74C7F912A1382BF00E90700 /* ThirdScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F902A1382BF00E90700 /* ThirdScreenVC.swift */; };
+		F74C7F932A1382CF00E90700 /* FourthScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */; };
+		F74C7F952A1382DD00E90700 /* FifthScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F942A1382DD00E90700 /* FifthScreenVC.swift */; };
 		F7B9B61E2A1245B500AA90DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B61D2A1245B500AA90DC /* AppDelegate.swift */; };
 		F7B9B6202A1245B500AA90DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B61F2A1245B500AA90DC /* SceneDelegate.swift */; };
-		F7B9B6222A1245B500AA90DC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B6212A1245B500AA90DC /* HomeScreen.swift */; };
+		F7B9B6222A1245B500AA90DC /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B6212A1245B500AA90DC /* FirstScreenVC.swift */; };
 		F7B9B6272A1245B600AA90DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B9B6262A1245B600AA90DC /* Assets.xcassets */; };
 		F7B9B62A2A1245B600AA90DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B9B6282A1245B600AA90DC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F74C7F8E2A136EA300E90700 /* SecondScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenVC.swift; sourceTree = "<group>"; };
+		F74C7F902A1382BF00E90700 /* ThirdScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenVC.swift; sourceTree = "<group>"; };
+		F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthScreenVC.swift; sourceTree = "<group>"; };
+		F74C7F942A1382DD00E90700 /* FifthScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthScreenVC.swift; sourceTree = "<group>"; };
 		F7B9B61A2A1245B500AA90DC /* AnimatedNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B9B61D2A1245B500AA90DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7B9B61F2A1245B500AA90DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7B9B6212A1245B500AA90DC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F7B9B6212A1245B500AA90DC /* FirstScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenVC.swift; sourceTree = "<group>"; };
 		F7B9B6262A1245B600AA90DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B9B6292A1245B600AA90DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B9B62B2A1245B600AA90DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,12 +62,16 @@
 		F7B9B61C2A1245B500AA90DC /* AnimatedNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				F74C7F902A1382BF00E90700 /* ThirdScreenVC.swift */,
 				F7B9B61D2A1245B500AA90DC /* AppDelegate.swift */,
 				F7B9B61F2A1245B500AA90DC /* SceneDelegate.swift */,
-				F7B9B6212A1245B500AA90DC /* HomeScreen.swift */,
+				F7B9B6212A1245B500AA90DC /* FirstScreenVC.swift */,
 				F7B9B6262A1245B600AA90DC /* Assets.xcassets */,
 				F7B9B6282A1245B600AA90DC /* LaunchScreen.storyboard */,
 				F7B9B62B2A1245B600AA90DC /* Info.plist */,
+				F74C7F8E2A136EA300E90700 /* SecondScreenVC.swift */,
+				F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */,
+				F74C7F942A1382DD00E90700 /* FifthScreenVC.swift */,
 			);
 			path = AnimatedNavigationBar;
 			sourceTree = "<group>";
@@ -134,7 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7B9B6222A1245B500AA90DC /* HomeScreen.swift in Sources */,
+				F74C7F8F2A136EA300E90700 /* SecondScreenVC.swift in Sources */,
+				F74C7F952A1382DD00E90700 /* FifthScreenVC.swift in Sources */,
+				F74C7F912A1382BF00E90700 /* ThirdScreenVC.swift in Sources */,
+				F74C7F932A1382CF00E90700 /* FourthScreenVC.swift in Sources */,
+				F7B9B6222A1245B500AA90DC /* FirstScreenVC.swift in Sources */,
 				F7B9B61E2A1245B500AA90DC /* AppDelegate.swift in Sources */,
 				F7B9B6202A1245B500AA90DC /* SceneDelegate.swift in Sources */,
 			);

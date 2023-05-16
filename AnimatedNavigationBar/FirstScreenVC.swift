@@ -7,12 +7,11 @@
 
 import UIKit
 
-class HomeScreen: UIViewController {
+class FirstScreenVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemMint
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemGray5
     }
 }
 
