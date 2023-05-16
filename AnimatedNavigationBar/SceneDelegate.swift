@@ -17,74 +17,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
+        let myTabBarVC = MyTabBarVC()
         
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = createTabBar()
+        window?.rootViewController = myTabBarVC
         window?.makeKeyAndVisible()
-    }
-    
-    
-    func createFirstScreenNavigationController() -> UINavigationController {
-        let firstScreenVC = FirstScreenVC()
-        firstScreenVC.title = "First Screen"
-        firstScreenVC.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 0)
-        
-        return UINavigationController(rootViewController: firstScreenVC)
-    }
-    
-    
-    func createSecondScreenNavigationController() -> UINavigationController {
-        let secondScreenVC = SecondScreenVC()
-        secondScreenVC.title = "Second Screen"
-        secondScreenVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
-        
-        return UINavigationController(rootViewController: secondScreenVC)
-    }
-    
-    
-    func createThirdScreenNavigationController() -> UINavigationController {
-        let thirdScreenVC = ThirdScreenVC()
-        thirdScreenVC.title = "Second Screen"
-        thirdScreenVC.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 1)
-        
-        return UINavigationController(rootViewController: thirdScreenVC)
-    }
-    
-    
-    func createFourthScreenNavigationController() -> UINavigationController {
-        let fourthScreenVC = FourthScreenVC()
-        fourthScreenVC.title = "Fourth Screen"
-        fourthScreenVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 3)
-        
-        return UINavigationController(rootViewController: fourthScreenVC)
-    }
-    
-    
-    func createFifthScreenNavigationController() -> UINavigationController {
-        let fifthScreenVC = FifthScreenVC()
-        fifthScreenVC.title = "Fifth Screen"
-        fifthScreenVC.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 1)
-        
-        return UINavigationController(rootViewController: fifthScreenVC)
-    }
-    
-    
-    
-    func createTabBar() -> UITabBarController {
-        UITabBar.appearance().tintColor = .black
-        UITabBar.appearance().isSpringLoaded = true
-        
-        let tabBarController = UITabBarController()
-        
-        
-        let lineView = UIView(frame: CGRect(x: 0, y: 0, width: tabBarController.tabBar.frame.size.width, height: 1))
-        lineView.backgroundColor = UIColor.gray
-        tabBarController.tabBar.addSubview(lineView)
-        
-        tabBarController.viewControllers = [createFirstScreenNavigationController(), createSecondScreenNavigationController(), createThirdScreenNavigationController(), createFourthScreenNavigationController(), createFifthScreenNavigationController()]
-        
-        return tabBarController
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

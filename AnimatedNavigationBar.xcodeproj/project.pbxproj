@@ -10,7 +10,9 @@
 		F74C7F8F2A136EA300E90700 /* SecondScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F8E2A136EA300E90700 /* SecondScreenVC.swift */; };
 		F74C7F912A1382BF00E90700 /* ThirdScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F902A1382BF00E90700 /* ThirdScreenVC.swift */; };
 		F74C7F932A1382CF00E90700 /* FourthScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */; };
-		F74C7F952A1382DD00E90700 /* FifthScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F942A1382DD00E90700 /* FifthScreenVC.swift */; };
+		F74C7F972A13A5FA00E90700 /* MyTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F962A13A5FA00E90700 /* MyTabBarVC.swift */; };
+		F74C7F992A13AFB700E90700 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F982A13AFB700E90700 /* MyTabBar.swift */; };
+		F74C7F9B2A13CCA900E90700 /* TabBarShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F9A2A13CCA900E90700 /* TabBarShapeView.swift */; };
 		F7B9B61E2A1245B500AA90DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B61D2A1245B500AA90DC /* AppDelegate.swift */; };
 		F7B9B6202A1245B500AA90DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B61F2A1245B500AA90DC /* SceneDelegate.swift */; };
 		F7B9B6222A1245B500AA90DC /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B6212A1245B500AA90DC /* FirstScreenVC.swift */; };
@@ -22,7 +24,9 @@
 		F74C7F8E2A136EA300E90700 /* SecondScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenVC.swift; sourceTree = "<group>"; };
 		F74C7F902A1382BF00E90700 /* ThirdScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreenVC.swift; sourceTree = "<group>"; };
 		F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthScreenVC.swift; sourceTree = "<group>"; };
-		F74C7F942A1382DD00E90700 /* FifthScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthScreenVC.swift; sourceTree = "<group>"; };
+		F74C7F962A13A5FA00E90700 /* MyTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarVC.swift; sourceTree = "<group>"; };
+		F74C7F982A13AFB700E90700 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		F74C7F9A2A13CCA900E90700 /* TabBarShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShapeView.swift; sourceTree = "<group>"; };
 		F7B9B61A2A1245B500AA90DC /* AnimatedNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B9B61D2A1245B500AA90DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7B9B61F2A1245B500AA90DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +75,9 @@
 				F7B9B62B2A1245B600AA90DC /* Info.plist */,
 				F74C7F8E2A136EA300E90700 /* SecondScreenVC.swift */,
 				F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */,
-				F74C7F942A1382DD00E90700 /* FifthScreenVC.swift */,
+				F74C7F962A13A5FA00E90700 /* MyTabBarVC.swift */,
+				F74C7F982A13AFB700E90700 /* MyTabBar.swift */,
+				F74C7F9A2A13CCA900E90700 /* TabBarShapeView.swift */,
 			);
 			path = AnimatedNavigationBar;
 			sourceTree = "<group>";
@@ -147,11 +153,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74C7F8F2A136EA300E90700 /* SecondScreenVC.swift in Sources */,
-				F74C7F952A1382DD00E90700 /* FifthScreenVC.swift in Sources */,
+				F74C7F9B2A13CCA900E90700 /* TabBarShapeView.swift in Sources */,
 				F74C7F912A1382BF00E90700 /* ThirdScreenVC.swift in Sources */,
 				F74C7F932A1382CF00E90700 /* FourthScreenVC.swift in Sources */,
 				F7B9B6222A1245B500AA90DC /* FirstScreenVC.swift in Sources */,
+				F74C7F992A13AFB700E90700 /* MyTabBar.swift in Sources */,
 				F7B9B61E2A1245B500AA90DC /* AppDelegate.swift in Sources */,
+				F74C7F972A13A5FA00E90700 /* MyTabBarVC.swift in Sources */,
 				F7B9B6202A1245B500AA90DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
