@@ -12,12 +12,12 @@
 		F74C7F932A1382CF00E90700 /* FourthScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */; };
 		F74C7F972A13A5FA00E90700 /* MyTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F962A13A5FA00E90700 /* MyTabBarVC.swift */; };
 		F74C7F992A13AFB700E90700 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F982A13AFB700E90700 /* MyTabBar.swift */; };
-		F74C7F9B2A13CCA900E90700 /* TabBarShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74C7F9A2A13CCA900E90700 /* TabBarShapeView.swift */; };
 		F7B9B61E2A1245B500AA90DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B61D2A1245B500AA90DC /* AppDelegate.swift */; };
 		F7B9B6202A1245B500AA90DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B61F2A1245B500AA90DC /* SceneDelegate.swift */; };
 		F7B9B6222A1245B500AA90DC /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9B6212A1245B500AA90DC /* FirstScreenVC.swift */; };
 		F7B9B6272A1245B600AA90DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B9B6262A1245B600AA90DC /* Assets.xcassets */; };
 		F7B9B62A2A1245B600AA90DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B9B6282A1245B600AA90DC /* LaunchScreen.storyboard */; };
+		F7EBCA7E2A14CFCD00C2F408 /* ModalSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EBCA7D2A14CFCD00C2F408 /* ModalSheetVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,6 @@
 		F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthScreenVC.swift; sourceTree = "<group>"; };
 		F74C7F962A13A5FA00E90700 /* MyTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarVC.swift; sourceTree = "<group>"; };
 		F74C7F982A13AFB700E90700 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
-		F74C7F9A2A13CCA900E90700 /* TabBarShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShapeView.swift; sourceTree = "<group>"; };
 		F7B9B61A2A1245B500AA90DC /* AnimatedNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B9B61D2A1245B500AA90DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7B9B61F2A1245B500AA90DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		F7B9B6262A1245B600AA90DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B9B6292A1245B600AA90DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B9B62B2A1245B600AA90DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7EBCA7D2A14CFCD00C2F408 /* ModalSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				F74C7F922A1382CF00E90700 /* FourthScreenVC.swift */,
 				F74C7F962A13A5FA00E90700 /* MyTabBarVC.swift */,
 				F74C7F982A13AFB700E90700 /* MyTabBar.swift */,
-				F74C7F9A2A13CCA900E90700 /* TabBarShapeView.swift */,
+				F7EBCA7D2A14CFCD00C2F408 /* ModalSheetVC.swift */,
 			);
 			path = AnimatedNavigationBar;
 			sourceTree = "<group>";
@@ -153,12 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74C7F8F2A136EA300E90700 /* SecondScreenVC.swift in Sources */,
-				F74C7F9B2A13CCA900E90700 /* TabBarShapeView.swift in Sources */,
 				F74C7F912A1382BF00E90700 /* ThirdScreenVC.swift in Sources */,
 				F74C7F932A1382CF00E90700 /* FourthScreenVC.swift in Sources */,
 				F7B9B6222A1245B500AA90DC /* FirstScreenVC.swift in Sources */,
 				F74C7F992A13AFB700E90700 /* MyTabBar.swift in Sources */,
 				F7B9B61E2A1245B500AA90DC /* AppDelegate.swift in Sources */,
+				F7EBCA7E2A14CFCD00C2F408 /* ModalSheetVC.swift in Sources */,
 				F74C7F972A13A5FA00E90700 /* MyTabBarVC.swift in Sources */,
 				F7B9B6202A1245B500AA90DC /* SceneDelegate.swift in Sources */,
 			);

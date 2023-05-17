@@ -27,13 +27,13 @@ class MyTabBarVC: UITabBarController, UITabBarControllerDelegate {
         self.setValue(myTabBar, forKey: "tabBar")
                 
         self.createTabBar()
-        self.setupMiddleButton()
+        //self.setupMiddleButton()
     }
         
     func createTabBar() {
         UITabBar.appearance().tintColor = .black
-        
-        self.viewControllers = [createFirstScreenNavigationController(), createSecondScreenNavigationController(), createFourthScreenNavigationController(), createFifthScreenNavigationController()]
+                
+        self.viewControllers = [createFirstScreenNavigationController(), createSecondScreenNavigationController(), createMiddleButtonNavigationController(), createThirdScreenNavigationController(), createFourthScreenNavigationController()]
         
     }
     
@@ -55,8 +55,7 @@ class MyTabBarVC: UITabBarController, UITabBarControllerDelegate {
     }
     
     
-    
-    func createFourthScreenNavigationController() -> UINavigationController {
+    func createThirdScreenNavigationController() -> UINavigationController {
         let thirdScreenVC = ThirdScreenVC()
         thirdScreenVC.title = "Third Screen"
         thirdScreenVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 3)
@@ -66,7 +65,7 @@ class MyTabBarVC: UITabBarController, UITabBarControllerDelegate {
     }
     
     
-    func createFifthScreenNavigationController() -> UINavigationController {
+    func createFourthScreenNavigationController() -> UINavigationController {
         let fourthScreenVC = FourthScreenVC()
         fourthScreenVC.title = "Fourth Screen"
         fourthScreenVC.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 4)
@@ -75,24 +74,23 @@ class MyTabBarVC: UITabBarController, UITabBarControllerDelegate {
     }
     
     
-    func setupMiddleButton()  {
-
-        let middleBtn = UIButton(frame: CGRect(x: (self.view.bounds.width / 2) - 25, y: -20, width: 50, height: 50))
+    func createMiddleButtonNavigationController() -> UINavigationController {
+        let modalSheetVC = ModalSheetVC()
         
-        //STYLE THE BUTTON YOUR OWN WAY
-        //middleBtn.setIcon(icon: .fontAwesomeSolid(.home), iconSize: 20.0, color: UIColor.white, backgroundColor: UIColor.white, forState: .normal)
-
+        let middleBtn = UIButton(frame: CGRect(x: (self.view.bounds.width / 2) - 25, y: -20, width: 50, height: 50))
         middleBtn.setImage(UIImage(named: "heart"), for: .normal)
         
-        //add to the tabbar and add click event
         self.tabBar.addSubview(middleBtn)
+        
         middleBtn.addTarget(self, action: #selector(self.menuButtonAction), for: .touchUpInside)
-
+    
         self.view.layoutIfNeeded()
+        
+        return UINavigationController(rootViewController: modalSheetVC)
     }
 
-    // Menu Button Touch Action
+
     @objc func menuButtonAction(sender: UIButton) {
-        self.selectedIndex = 2   //to select the middle tab. use "1" if you have only 3 tabs.
+        print("Triggered my heart")
     }
 }
